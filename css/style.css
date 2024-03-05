@@ -258,24 +258,25 @@ section {
 	color: var(--black);
 	cursor: pointer;
 }
+
 .home {
 	position: relative;
-  }
-  
-  .swiper-container {
+}
+
+.swiper-container {
 	min-width: 100vw;
 	height: 100vh;
 	margin-left: -110px;
-  }
-  
-  .swiper-slide img {
+}
+
+.swiper-slide img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
+}
+
+.swiper-button-prev,
+.swiper-button-next {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -289,17 +290,17 @@ section {
 	align-items: center;
 	justify-content: center;
 	z-index: 10;
-  }
-  
-  .swiper-button-prev {
+}
+
+.swiper-button-prev {
 	left: 10px;
-  }
-  
-  .swiper-button-next {
+}
+
+.swiper-button-next {
 	right: 10px;
-  }
-  
-  .content {
+}
+
+.content {
 	position: absolute;
 	z-index: 20;
 	top: 50%;
@@ -307,37 +308,40 @@ section {
 	transform: translate(-50%, -50%);
 	text-align: center;
 	color: white;
-  }
-  
-  .slide-content {
+}
+
+.slide-content {
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 20;
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
 	.swiper-button-prev,
 	.swiper-button-next {
-	  width: 30px;
-	  height: 30px;
-	  font-size: 20px;
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
 	}
-  }
-  
-  @media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 576px) {
+
 	.swiper-button-prev,
 	.swiper-button-next {
-	  width: 25px;
-	  height: 25px;
-	  font-size: 16px;
+		width: 25px;
+		height: 25px;
+		font-size: 16px;
 	}
-	.swiper-container{
+
+	.swiper-container {
 		margin-right: -15px;
 	}
-  }
-  
+}
+
 
 .home .content h3 {
 	font-size: 5rem;
@@ -359,31 +363,34 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-  }
-  
-  .event {
+}
+
+.event {
 	width: calc(100% - 20px);
 	margin-bottom: 20px;
 	background-color: #fff;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
-  }
-  .ev1{
+}
+
+.ev1 {
 	margin-left: 20px;
-  }
-  .campus-news{
+}
+
+.campus-news {
 	margin-left: -20px;
-  }
-  .event i {
+}
+
+.event i {
 	color: var(--primary-color);
 	font-size: 14px;
-  }
-  
-  .event div {
+}
+
+.event div {
 	padding: 10px;
-  }
-  
-  .event .heading {
+}
+
+.event .heading {
 	padding: 10px;
 	color: var(--primary-color);
 	background: #761111;
@@ -391,26 +398,28 @@ section {
 	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 10px;
-  }
-  
-  .event ul {
-	padding-left: 0;
-  }
+}
 
-  .campus-news ul li {
+.event ul {
+	padding-left: 0;
+}
+
+.campus-news ul li {
 	margin-bottom: 20px;
 	list-style: none;
-  }
-  .ev1 ul li {
+}
+
+.ev1 ul li {
 	margin-bottom: 20px;
 	list-style: none;
-  }
-  .ev3 ul li {
+}
+
+.ev3 ul li {
 	margin-bottom: 70px;
 	list-style: none;
-  }
-  
-  .event-date {
+}
+
+.event-date {
 	background: var(--primary-color);
 	float: left;
 	text-align: center;
@@ -418,30 +427,31 @@ section {
 	color: #fff;
 	padding: 8px 12px;
 	margin-right: 10px;
-  }
-  
-  .campus-news span {
+}
+
+.campus-news span {
 	width: 100px;
 	float: left;
-  }
-  
-  .campus-news h2 {
+}
+
+.campus-news h2 {
 	font-weight: 600;
 	font-size: 16px;
 	margin: 0;
-  }
-  
-  .campus-news h6 {
+}
+
+.campus-news h6 {
 	font-weight: 500;
 	font-size: 13px;
 	color: var(--primary-color);
 	margin: 5px 0;
-  }
-  
-  .campus-news p {
+}
+
+.campus-news p {
 	font-size: 14px;
 	margin: 5px 0;
-  }
+}
+
 .about .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -482,8 +492,11 @@ section {
 	padding: 1rem 0;
 	line-height: 1.8;
 }
+
+
 .footer {
-	 margin-top: 1%; /*to be removes later */
+	margin-top: 1%;
+	/*to be removes later */
 	background-color: var(--secondary);
 	text-align: center;
 }
@@ -616,24 +629,26 @@ section {
 		font-size: 50%;
 	}
 }
+
 @media only screen and (min-width: 768px) {
 	.event {
-	  width: calc(50% - 20px);
-	  margin-right: 20px;
+		width: calc(50% - 20px);
+		margin-right: 20px;
 	}
-  
+
 	.event:nth-child(even) {
-	  margin-right: 0;
+		margin-right: 0;
 	}
-  }
-  
-  @media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 992px) {
 	.event {
-	  width: calc(33.333% - 20px);
+		width: calc(33.333% - 20px);
 	}
-  }
-  @media only screen and (max-width: 576px) {
+}
+
+@media only screen and (max-width: 576px) {
 	.event {
-	  margin-left: 10px;
+		margin-left: 10px;
 	}
-  }
+}
