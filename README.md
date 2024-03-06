@@ -1,3 +1,3 @@
 # school
  
-https://keshav861.github.io/school/
+https://whimsical-starship-13ced4.netlify.app/
