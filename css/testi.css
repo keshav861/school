@@ -32,16 +32,8 @@
 	margin-bottom: calc(0.7rem + 0.5vmin);
 	font-size: calc(2.3rem + 1vmin);
 }
-
-/* .testi .blue-line {
-	height: 0.3rem;
-	width: 6rem;
-	background-color: var(--primary-color);
-	margin-bottom: calc(3rem + 2vmin);
-} */
-
 .testi h1::after {
-	content: url('../images/separator.svg');
+	content: url('/image/separator.svg');
 	display: block;
 	width: 10rem;
 	margin-inline: auto;

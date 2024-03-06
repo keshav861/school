@@ -15,7 +15,7 @@ h1 {
 }
 
 h1::after {
-  content: url('../images/separator.svg');
+  content: url('/image/separator.svg');
   display: block;
   width: 10rem;
   margin-inline: auto;
