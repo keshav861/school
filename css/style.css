@@ -40,6 +40,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 section {
+	overflow-x: hidden;
 	padding: 5rem 7%;
 }
 .mrq {
@@ -488,7 +489,7 @@ section {
 
 .about .container .about-image .about-img {
 	position: absolute;
-	bottom: -10rem;
+	bottom: 10rem;
 	right: -1rem;
 	width: 25rem;
 	padding-block: 5rem;
@@ -515,8 +516,6 @@ section {
 
 
 .footer {
-	margin-top: 1%;
-	/*to be removes later */
 	background-color: var(--secondary);
 	text-align: center;
 }
@@ -608,6 +607,7 @@ section {
 
 	#menu-btn {
 		display: inline-block;
+		overflow: hidden;
 	}
 
 	.home {
@@ -648,6 +648,9 @@ section {
 	html {
 		font-size: 50%;
 	}
+.about .container .about-image .about-img {
+	bottom: -80px;
+}
 }
 
 @media only screen and (min-width: 768px) {
