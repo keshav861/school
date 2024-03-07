@@ -42,6 +42,33 @@ html::-webkit-scrollbar-thumb {
 section {
 	padding: 5rem 7%;
 }
+.mrq {
+    background: #0055a4;
+    padding: 6px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.mrq b {
+    background: #fff;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.mrq marquee {
+    font-size: 20px;
+    color: #ffffff;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
 
 .heading {
 	position: relative;
@@ -140,8 +167,8 @@ section {
 }
 
 .header {
-	position: fixed;
-	top: 0;
+	position: absolute;
+	top: 10;
 	left: 0;
 	right: 0;
 	z-index: 1000;
