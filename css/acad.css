@@ -54,10 +54,13 @@ img {
 }
 
 .text-box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
     margin-left: 100px;
     color: #000;
     max-width: 80%;
-   margin-top: 60px;
 }
 
 .text-box h2 {
