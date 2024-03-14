@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallary</title>
+    <link rel="stylesheet" href="./css/gallary.css">
+</head>
+<body>
+  <iframe src="/navbar.html" frameborder="0">
+  </iframe>
+    <h1>Video-Gallery</h1>
+    <div id="gallery" class="container-fluid">  
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video>
+      <video class="vid" controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        </source>
+      </video> 
+         
+    </div>
+    
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+<script>$(document).ready(function(){
+    $("img").click(function(){
+    var t = $(this).attr("src");
+    $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+    $("#myModal").modal();
+  });
+  
+  $("video").click(function(){
+    var v = $("video > source");
+    var t = v.attr("src");
+    $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+    $("#myModal").modal();  
+  });
+  });//EOF Document.ready</script>
+
+</div>
+</body>
+</html>

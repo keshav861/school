@@ -366,17 +366,11 @@ section {
 
 .home .content h3 {
 	font-size: 5rem;
-	color: var(--white);
+	color: var(--primary-color);
 	line-height: 1.2;
+	text-shadow: 2px 2px 14px #000000,
+				 12px 4px 12px #000000;
 }
-
-.home .content p {
-	font-size: 1.5rem;
-	line-height: 2;
-	color: var(--white);
-	padding: 1rem 0;
-}
-
 .events {
 	width: 100%;
 	float: left;
