@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -26,6 +27,7 @@
                 </div>
             </div>
             <a href="#" onclick="redirectTo('/contact.html')" class="hover-underline">contact</a>
+
             <style>
                 .dropbtn {
                     background-color: transparent;
@@ -70,17 +72,18 @@
                     display: inline-block;
                 }
             </style>
+
         </nav>
         <script>
             function redirectTo(url) {
-            // Change the src attribute of the parent iframe's location
-            window.parent.location.href = url;
-        }
+                window.parent.location.href = url;
+            }
         </script>
-
         <div class="icons">
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
+        <script src="js/script.js"></script>
+
     </header>
     <style>
         @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap");
