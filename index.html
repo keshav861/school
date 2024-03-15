@@ -56,6 +56,7 @@
 				.dropbtn:focus {
 					background-color: #f9f9f9;
 				}
+
 				.dropdown-content {
 					display: none;
 					position: absolute;
@@ -64,18 +65,22 @@
 					box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 					z-index: 1;
 				}
+
 				.dropdown-content a {
 					color: #333;
 					padding: 12px 16px;
 					text-decoration: none;
 					display: block;
 				}
+
 				.dropdown-content a:hover {
 					background-color: #ddd;
 				}
+
 				.dropdown:hover .dropdown-content {
 					display: block;
 				}
+
 				.dropdown {
 					position: relative;
 					display: inline-block;
@@ -461,6 +466,51 @@
 			description.style.height = "100%";
 		});
 	</script>
+
+	<section class="why">
+		<div class="quality">
+			<div class="main-quality">
+				<div class="main-inner-quality">
+					<div class="quality-content">
+						<h1>Why the SMAPS</h1>
+						<p><i>
+								We at “SMAPS” are committed to provide quality and modern infrastructure, continuing
+								realignment of curriculum and committed and skilled faculty. At “SMAPS” with the help of
+								personal attention your child will be groomed to become a confident and enlightened
+								youth, ready to step into global society with honour, dignity and integrity.
+
+
+								<br><br><b>• Personal attention, where your child gets an opportunity to outshine his
+									caliber.</b>
+								<br><b>• A complete school, starting from play group to 10+2</b>
+								<br><b>• Exclusive, well equipped junior wing with indoor auditorium.</b>
+								<br><b>• Multimedia/smart classrooms.</b>
+								<br><b>• Centrally air-conditioned and spacious school building.</b>
+								<br><b>• A rich library, well equipped science and computer laboratories.</b>
+								<br><b>• Horse Riding “Dance and Music Room”.</b></i>
+
+						</p>
+
+					</div>
+				</div>
+
+				<div class="main-inner-quality">
+					<div class="quality-content qulity-image">
+						<img src="./image/school Building.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			const sr = ScrollReveal({
+				distance: '45px',
+				duration: 2700,
+				reset: true,
+			})
+			sr.reveal('.quality-content', { delay: 350, origin: 'left' })
+			sr.reveal('.qulity-image', { delay: 350, origin: 'right' })
+		</script>
+	</section>
 	<section class="facility_slider" id="facility_sliders">
 		<iframe src="/facility_slider/facility_slider.html" frameborder="0" class="facility_slider1"></iframe>
 	</section>
