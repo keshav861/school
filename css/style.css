@@ -587,7 +587,8 @@ section {
 	margin-left: 200px;
 }
 .qulity-image {
-	width: 100%;
+	width: 70%;
+	line-height: 3rem;
 
 }
 
@@ -614,6 +615,15 @@ section {
 	}
 	.qulity-image1 img {
 		margin-left: 70px;
+	}
+	#img65{
+		margin-left: 70px;
+	}
+	#img64{
+		margin-left: 50px;
+	}
+	#img66{
+		margin-left: 40px;
 	}
 	.quality-content p{
 		margin-left: 0;
